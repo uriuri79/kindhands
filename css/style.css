@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +19,15 @@ html {
 }
 
 body {
-    font-family: 'Courier New', Courier, sans-serif;
-    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    
 }
 
 h1 {
-    font-size: 90px;
-    color: red;
+    font-size: 98px;
+    text-transform: uppercase;
+    /*letter-spacing: 5px;*/
+    color: #fe0130;
 }
 
 .logo_img {
