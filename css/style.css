@@ -3,6 +3,25 @@
     padding: 0;
 }
 
+html {
+    background: url('../img/background-img.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
     font-family: 'Courier New', Courier, sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 90px;
+    color: red;
+}
+
+.logo_img {
+    width: 241px;
+    height: 157px;
 }
