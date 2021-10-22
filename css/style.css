@@ -30,7 +30,32 @@ h1 {
     color: #fe0130;
 }
 
+ul {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    width: 900px;
+    margin: 0 15px 30px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 .logo_img {
     width: 241px;
     height: 157px;
+}
+
+.nav_footer-menu {
+    flex-direction: column;
 }
